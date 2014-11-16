@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    dispatch_group_t group = dispatch_group_create();
+    dispatch_queue_t orderStatusQueue = dispatch_queue_create("com.&lt;#queue identifier#&gt;", DISPATCH_QUEUE_CONCURRENT);
+    
+    BOOL __block success = YES;
+
+for (&lt;#obj#&gt; in &lt;#batch#&gt;) {
+        dispatch_group_enter(group);
+    &lt;#code#&gt;
+        dispatch_group_leave(group);
+    }
+    
+    dispatch_group_notify(group, orderStatusQueue, ^{
+        dispatch_async(dispatch_get_main_queue(), ^{
+            completion(&lt;#params#&gt;);
+        });
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EDD0B9F3-A2A6-48EE-BDD7-22F79C442C66</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Batch network requests</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Dispatch_group</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
