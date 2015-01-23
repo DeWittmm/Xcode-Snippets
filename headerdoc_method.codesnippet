@@ -11,8 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>/// &lt;#Brief Description#&gt;.
 /*!	&lt;#Long Description#&gt;
- *	@param[in]	&lt;#Variable#&gt;	&lt;#Explanation#&gt; \c &lt;#object#&gt;
- *	@return		&lt;#Explanation#&gt;
+ *	@param 	&lt;#Variable#&gt;	&lt;#Explanation#&gt; \c &lt;#object#&gt;
+ *	@return	&lt;#Explanation#&gt;
  */
 </string>
 	<key>IDECodeSnippetIdentifier</key>

@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@interface</string>
+	<string>infix</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#Class Name#&gt; ()
-&lt;#Continuation#&gt;
-@end</string>
+	<string>infix operator &lt;#op#&gt; { associativity &lt;#left#&gt; precedence &lt;#100#&gt; }
+func &lt;#op#&gt; (a: &lt;#typeA#&gt;, b: &lt;#typeB#&gt;) -&gt; &lt;#return#&gt; {
+    return 
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0F9332F6-9076-457B-8D7F-BD2A87FA56DE</string>
+	<string>58B2D4E7-181E-4CEF-BB92-3426C6455150</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Anonymous category to define private methods in an implementation</string>
+	<string>Defines new custom infix operator</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Class Continuation</string>
+	<string>Infix Operator</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

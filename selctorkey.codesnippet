@@ -4,33 +4,16 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - NSCoding
-
-- (instancetype)initWithCoder:(NSCoder *)decoder {
-    self = [super init];
-    if (!self) {
-      return nil;
-    }
-
-    &lt;# implementation #&gt;
-
-    return self;
-}
-
-- (void)encodeWithCoder:(NSCoder *)coder {
-  &lt;# implementation #&gt;
-}</string>
+	<string>NSString *key = NSStringFromSelector(@selector(&lt;#sel#&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AF446110-74F2-43C1-9542-009C90F05B11</string>
+	<string>C1356DCE-44F9-4462-A72C-46DDF02D777B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Placeholders for NSCoding protocol methods</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSCoding Protocol Methods</string>
+	<string>Selector Key</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

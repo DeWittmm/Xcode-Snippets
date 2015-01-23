@@ -16,9 +16,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>use in blocks</string>
+	<string>use in blocks to avoid retain cycles</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>WeakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
